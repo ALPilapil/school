@@ -1,0 +1,4 @@
+how to run test case easily:
+diff <(python solution.py < test_data/06/input) test_data/06/output
+
+blank if correct, returns difference if not
