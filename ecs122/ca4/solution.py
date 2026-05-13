@@ -68,3 +68,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # used this to help: https://walkccc.me/LeetCode/problems/1168/#__tabbed_1_3
+    # - i was insipired to use Prim's algorithm as they did here
+    # - i implemented it very similarly with a heapq, required for Prim's
+    # - also used their idea of using a root node to connect things
